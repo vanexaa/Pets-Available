@@ -1,0 +1,231 @@
+/* Default styles for ASP.NET Core project */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f0efed; /* Background color */
+}
+
+/* --- CUSTOM STYLES FOR ADOPTION UI BELOW --- */
+
+.adoption-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+    .adoption-section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 5px;
+    }
+
+    .adoption-section p {
+        font-size: 1.1rem;
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+.pet-card {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ff5757; /* Border color for pet cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    background-color: #f0efed;
+    display: block;
+    height: 100%;
+}
+
+    .pet-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+        background-color: #e0f2f7;
+        border: 2px solid #a7d9ed;
+    }
+
+    .pet-card h5 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    .pet-card p.text-muted {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+        color: #777;
+    }
+
+    .pet-card .btn {
+        background-color: #ff5757; /* Button background color */
+        color: white;
+        border: 1px solid #ff5757; /* Button border color */
+        padding: 5px 15px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+    }
+
+        .pet-card .btn:hover {
+            background-color: #e04a4a;
+            border-color: #e04a4a;
+        }
+
+/* Multi-carousel styles */
+.multi-carousel-item {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.multi-carousel .carousel-control-prev,
+.multi-carousel .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    color: white;
+    opacity: 1;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.multi-carousel .carousel-control-prev {
+    left: 0px;
+}
+
+.multi-carousel .carousel-control-next {
+    right: 0px;
+}
+
+.multi-carousel {
+    position: relative;
+    padding: 0 50px;
+}
+
+.carousel-item .row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.multi-carousel .carousel-control-prev-icon,
+.multi-carousel .carousel-control-next-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    filter: invert(100%);
+}
+
+.see-more-btn-container {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.see-more-btn {
+    background-color: #ff5757; /* "See More" button color */
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+    .see-more-btn:hover {
+        background-color: #e04a4a;
+    }
+
+/* Styles for the Pet Details Modal */
+#petDetailsModal .modal-content {
+    border: 1px solid #ff5757; /* Optional: Border for the modal itself */
+}
+
+#petDetailsModal .modal-header {
+    background-color: #ff5757; /* Header background color */
+    color: white;
+    border-bottom: 1px solid #ff5757; /* Optional: Header bottom border */
+}
+
+#petDetailsModal .modal-title {
+    color: white;
+}
+
+#petDetailsModal .btn-close {
+    filter: invert(1); /* Make the close button white */
+}
+
+.pet-modal-image-container {
+    margin-bottom: 20px;
+}
+
+.modal-pet-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #a7d9ed; /* Border for the circle image in modal */
+    background-color: #e0f2f7;
+}
+
+.pet-details-list p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.pet-details-list strong {
+    min-width: 80px;
+    display: inline-block;
+}
+
+.pet-details-list span {
+    font-weight: normal;
+}
+
+#petDetailsModal .adopt-btn {
+    background-color: #ff5757; /* ADOPT button color */
+    border-color: #ff5757; /* ADOPT button border color */
+    color: white;
+    padding: 10px 25px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+    #petDetailsModal .adopt-btn:hover {
+        background-color: #e04a4a;
+        border-color: #e04a4a;
+    }
+
+#petDetailsModal .modal-footer {
+    border-top: 1px solid #ff5757; /* Optional: Footer top border */
+}
+
+#petDetailsModal .btn-secondary {
+    /* You might want to style the close button as well, or leave it as the default Bootstrap style */
+}
