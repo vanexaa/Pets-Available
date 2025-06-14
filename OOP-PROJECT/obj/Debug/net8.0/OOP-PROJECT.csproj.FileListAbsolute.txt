@@ -14,6 +14,7 @@ C:\Users\Modern 15\source\repos\OOP-PROJECT\OOP-PROJECT\obj\Debug\net8.0\OOP-PRO
 C:\Users\Modern 15\source\repos\OOP-PROJECT\OOP-PROJECT\obj\Debug\net8.0\OOP-PROJECT.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Modern 15\source\repos\OOP-PROJECT\OOP-PROJECT\obj\Debug\net8.0\OOP-PROJECT.RazorAssemblyInfo.cache
 C:\Users\Modern 15\source\repos\OOP-PROJECT\OOP-PROJECT\obj\Debug\net8.0\OOP-PROJECT.RazorAssemblyInfo.cs
+C:\Users\Modern 15\source\repos\OOP-PROJECT\OOP-PROJECT\obj\Debug\net8.0\OOP-PROJECT.sourcelink.json
 C:\Users\Modern 15\source\repos\OOP-PROJECT\OOP-PROJECT\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Modern 15\source\repos\OOP-PROJECT\OOP-PROJECT\obj\Debug\net8.0\scopedcss\bundle\OOP-PROJECT.styles.css
 C:\Users\Modern 15\source\repos\OOP-PROJECT\OOP-PROJECT\obj\Debug\net8.0\scopedcss\projectbundle\OOP-PROJECT.bundle.scp.css

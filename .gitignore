@@ -1,0 +1,15 @@
+# Ignore Visual Studio settings
+.vs/
+*.suo
+*.user
+
+# Ignore build outputs
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.db-shm
+*.db-wal
+*.vsidx
